@@ -1,0 +1,25 @@
+# Array # 
+
+an array is a data structure that stores a collection of values of the same type . we access each individual values through an integer index. for example, if  a is an array of integers, then a[i] is the ith integer in the array.
+## declare an array ##
+type
+an array variable by specifying the array type - which is the element type followed by[] -and the array variable name. 
+###synax:###
+int[] a;
+however ,this statement only declare the variable *a*.it does not yet **initialize** *a* with the actual array . use the *new* operator to create the array.
+int [i] a.**new** int[100];
+* this statement declare and initialized an array of 100 integers.
+
+1.2 ## type of array ##
+There are two types of array.
+
+1.   Single Dimensional Array
+2.    Multidimensional Array
+
+1.2 ## The "for each" lopp ##
+      java has a powerful looping construct that allows you to loop through each element in an array without having to fuss with index values.
+        The *enchanced* for loop
+          for(*variable* : *collection*) *statement* 
+          
+ set the given variable to each element of the collection and then executes the statement. the *collection* expression must be an array or an object of the class that implement the **ITERABLE**   interface .such as **Arraylist**.
+                        
