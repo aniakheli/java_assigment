@@ -1,0 +1,3 @@
+# Custom Layout Manager #
+Before we start creating a custom layout manager, make sure that no existing layout manager meets our requirements. In particular, layout managers such as **GridBagLayout**, **SpringLayout**, and **BoxLayout** are flexible enough to work in many cases. we can also find layout managers from other sources, such as from the Internet. Finally, we can simplify layout by grouping components into containers such as panels.
+To create a custom layout manager, we must create a class that implements the **LayoutManager** interface. we can either implement it directly, or implement its subinterface, *LayoutManager2*.
