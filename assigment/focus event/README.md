@@ -3,5 +3,5 @@ Defines 2 methods to recognize a component gain or loses keyboard focuses
 
 ## Methods ##
 
-void focusGained(FocusEvent fe)
-void focusLost(FocusEvent fe)
+1. void focusGained(FocusEvent fe)
+2. void focusLost(FocusEvent fe)
